@@ -105,3 +105,22 @@ hi cssClassName ctermfg=188 ctermbg=NONE cterm=NONE guifg=#dae3e8 guibg=NONE gui
 hi cssValueLength ctermfg=150 ctermbg=NONE cterm=NONE guifg=#9dc777 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=109 ctermbg=NONE cterm=NONE guifg=#769eb3 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+let g:terminal_ansi_colors = [
+\ '#222E33',
+\ '#CC6666',
+\ '#97B853',
+\ '#3E3D32',
+\ '#769EB3',
+\ '#C5487A',
+\ '#73B3C0',
+\ '#DAE3E8',
+\ '#C5C5C0',
+\ '#E36868',
+\ '#A8FF60',
+\ '#DBCD7F',
+\ '#96CBFE',
+\ '#9B82C9',
+\ '#73B3C0',
+\ '#E36868'
+\ ]
