@@ -106,13 +106,28 @@ hi cssValueLength ctermfg=150 ctermbg=NONE cterm=NONE guifg=#9dc777 guibg=NONE g
 hi cssCommonAttr ctermfg=109 ctermbg=NONE cterm=NONE guifg=#769eb3 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
+" vim inherits the first 16 ansi colors from the hosting terminal, since gvim
+" doesn't have a hosting terminal one must override the first 16 colors
+" https://en.wikipedia.org/wiki/ANSI_escape_code#Colors
+"
+" Color values from https://github.com/toothpaste-theme/toothpaste/blob/master/styles/colors.less
+"
+" 8 colors, in this order, repeated twice:
+"   @gray
+"   @red-light 🚨
+"   @green-light
+"   @yellow-light
+"   @blue-light
+"   @purple
+"   @cyan
+"   (foreground from https://github.com/toothpaste-theme/toothpaste/blob/master/toothpaste.tmTheme#L20)
 let g:terminal_ansi_colors = [
-\ '#222E33',
-\ '#CC6666',
-\ '#97B853',
+\ '#C5C5C0',
+\ '#E36868',
+\ '#A8FF60',
 \ '#DBCD7F',
-\ '#769EB3',
-\ '#C5487A',
+\ '#96CBFE',
+\ '#9B82C9',
 \ '#73B3C0',
 \ '#DAE3E8',
 \ '#C5C5C0',
@@ -122,5 +137,5 @@ let g:terminal_ansi_colors = [
 \ '#96CBFE',
 \ '#9B82C9',
 \ '#73B3C0',
-\ '#E36868'
+\ '#DAE3E8'
 \ ]
