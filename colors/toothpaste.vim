@@ -113,7 +113,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 " Color values from https://github.com/toothpaste-theme/toothpaste/blob/master/styles/colors.less
 "
 " 8 colors, in this order, repeated twice:
-"   @gray
+"   @blue-gray-darkest
 "   @red-light 🚨
 "   @green-light
 "   @yellow-light
@@ -122,7 +122,7 @@ hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 "   @cyan
 "   (foreground from https://github.com/toothpaste-theme/toothpaste/blob/master/toothpaste.tmTheme#L20)
 let g:terminal_ansi_colors = [
-\ '#C5C5C0',
+\ '#222E33',
 \ '#E36868',
 \ '#A8FF60',
 \ '#DBCD7F',
